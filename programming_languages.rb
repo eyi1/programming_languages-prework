@@ -2,10 +2,12 @@ def reformat_languages(languages)
   # your code here
   new_hash = {}
 
-  languages.map do |type, language|
-    language.map do |key, value|
-      # new_hash[key]
-      new_hash[key][:style] = [type]
+  languages.each do |oo_functional, language|
+    #oo => ruby 
+    language.each do |type, value|
+      #{type => interpreted}
+      new_hash[type] = value
+      new_hash[type][:style] = [oo_functional]
         if language == :javascript
 
 
