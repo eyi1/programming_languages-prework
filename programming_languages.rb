@@ -11,7 +11,7 @@ def reformat_languages(languages)
 
 
       # new_hash[key][:style]
-
+    end
   end
   end
   new_hash
