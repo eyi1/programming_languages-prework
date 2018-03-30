@@ -15,15 +15,12 @@ def reformat_languages(languages)
       # new_hash[type][:style] = [oo_functional]
       #   if language == :javascript
       # 
-      # 
-      # 
-      # 
+      #
+      #
+      #
       #   end
     end
   end
 end
   new_hash
 end
-
-
-
