@@ -5,6 +5,7 @@ def reformat_languages(languages)
   languages.each do |type, language|
     language.each do |key, value|
       new_hash[key] = value
+      binding.pry
       if languages[language] == "javascript"
         new_hash[key][:style] = [":oo, :functional"]
       else
