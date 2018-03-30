@@ -8,7 +8,8 @@ def reformat_languages(languages)
 
       #{type => interpreted}
       value_hash.each do |value|
-      new_hash[type] = {}
+        new_hash[type] = {value}
+        
   #  :ruby => {}
 
       new_hash[type][:style] = [oo_functional]
