@@ -9,12 +9,12 @@ def reformat_languages(languages)
       #{type => interpreted}
       value_hash.each do |value|
         new_hash[type] = {}
-        new_hash[type][:type] << value 
+        new_hash[type][:type] << value
   #  :ruby => {key: value, key: value}
 
       # new_hash[type][:style] = [oo_functional]
       #   if language == :javascript
-      # 
+      #
       #
       #
       #
