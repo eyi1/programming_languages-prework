@@ -6,8 +6,10 @@ def reformat_languages(languages)
     language.each do |key, value|
       new_hash[key] = value
       new_hash[key][:style] = [type]
+      if language == "javascript"
+        new_hash[key][:sty;e] = [":oo", ":functional"]
       # new_hash[key][:style]
-
+    end
   end
   end
   new_hash
