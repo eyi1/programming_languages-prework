@@ -7,10 +7,10 @@ def reformat_languages(languages)
       new_hash[key] = value
       if languages == "javascript"
         new_hash[key][:style] = "[:oo, :functional]"
-      # else
+      else
         new_hash[key][:style] = [type]
       # new_hash[key][:style]
-
+    end
   end
   end
   new_hash
