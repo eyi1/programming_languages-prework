@@ -4,8 +4,11 @@ def reformat_languages(languages)
 
   languages.each do |type, language|
     language.each do |key, value|
-      languages[:style] = [:oo]
+      new_hash[type] = value 
+      value = []
+      [] << style
       binding.pry
+      
   end
   end
   new_hash
