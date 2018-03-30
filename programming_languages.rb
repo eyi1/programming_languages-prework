@@ -6,12 +6,12 @@ def reformat_languages(languages)
     language.map do |key, value|
       new_hash[key] = value
       new_hash[key][:style] = [type]
-        if languages[language] == "javascript"
-            new_hash[key][:style] << languages[:functional]
-            
-      
+        if language == "javascript"
+            new_hash[key][:style] << language[:functional]
+
+
       # new_hash[key][:style]
-    
+
   end
   end
   new_hash
