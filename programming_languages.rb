@@ -10,7 +10,7 @@ def reformat_languages(languages)
       value_hash.each do |value|
       new_hash[type] = {}
   #  :ruby => {}
-    
+
       new_hash[type][:style] = [oo_functional]
         if language == :javascript
 
